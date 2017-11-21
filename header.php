@@ -11,30 +11,47 @@
 </head>
 <body>
 
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="navbar fixed-top  navbar-toggleable-md navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- Logo -->
-    <a class="navbar-brand" href="<?php echo site_url() ?>" title="<?php bloginfo('name') ?>">
-        <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-    </a>
+        <!-- Logo -->
+        <a class="navbar-brand" href="<?php echo site_url() ?>" title="<?php bloginfo('name') ?>">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" width="50" height="50"
+                 class="d-inline-block align-top" alt="">
+        </a>
 
-    <?php
-    wp_nav_menu([
-        'menu'            => 'menu-header',
-        'theme_location'  => 'menu-header',
-        'container'       => 'div',
-        'container_id'    => 'bs-example-navbar-collapse-1',
-        'container_class' => 'collapse navbar-collapse',
-        'menu_id'         => false,
-        'menu_class'      => 'navbar-nav ml-auto',
-        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-        'walker'          => new WP_Bootstrap_Navwalker()
-    ]);
-    ?>
+        <!-- Menu Header -->
+        <?php
+        wp_nav_menu([
+            'menu' => 'menu-header',
+            'theme_location' => 'menu-header',
+            'container' => 'div',
+            'container_id' => 'bs-example-navbar-collapse-1',
+            'container_class' => 'collapse navbar-collapse',
+            'menu_id' => false,
+            'menu_class' => 'navbar-nav ml-auto',
+            'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+            'walker' => new WP_Bootstrap_Navwalker()
+        ]);
+        ?>
+    </nav>
 
-</nav>
+<header class="header">
+    <div class="container">
+        <div class="row apresentacao">
+            <div class="col-md texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, atque debitis dolores et eveniet excepturi
+                fuga hic id impedit laborum laudantium molestiae nam necessitatibus officiis, perspiciatis possimus
+                provident sapiente voluptates!
+            </div>
+            <div class="col-md imagem">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" width="50" height="50"
+                     class="d-inline-block align-top" alt="">
+            </div>
+        </div>
+    </div>
+</header>

@@ -9,16 +9,115 @@
 get_header();
 ?>
 
-    <!-- Content -->
+    <!-- A Agência -->
     <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere lectus dui, nec molestie enim iaculis a.
-            Phasellus quis rhoncus elit, a facilisis velit. Integer at mi at lectus pretium commodo. Donec vel ligula in
-            ligula gravida pulvinar vel vel turpis. Mauris cursus facilisis lorem, ut convallis odio tincidunt at. Nam
-            id cursus risus. Maecenas ut volutpat metus. Suspendisse viverra tincidunt urna. Nullam in urna sed est
-            pharetra tempus et a magna. Proin consequat odio et viverra vehicula.
 
-        </p>
-    </div><!-- #primary -->
+        <div class="row">
 
-<!-- Footer -->
+            <div class="col-md">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/base.png" width="400" height="400"
+                     alt="">
+            </div>
+
+            <div class="col-md">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, asperiores culpa delectus deleniti
+                dignissimos doloribus fugiat fugit inventore ipsa iusto laboriosam maxime officiis quas quia, recusandae
+                suscipit voluptate. Commodi, non?
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Acreditamos que -->
+    <div class="container">
+
+        <h5 class="text-center">Na Gotime acreditamos que:</h5>
+
+        <div class="row">
+            <div class="col-md">
+                <div class="text-center">
+                    <i class="fa fa-check-circle-o fa-3x" aria-hidden="true"></i>
+                    <h6>Cada detalhe conta</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, asperiores culpa delectus deleniti
+                    dignissimos doloribus fugiat fugit inventore ipsa iusto laboriosam maxime officiis quas quia,
+                    recusandae
+                    suscipit voluptate. Commodi, non?</p>
+            </div>
+
+            <div class="col-md">
+                <div class="text-center">
+                    <i class="fa fa-check-circle-o fa-3x" aria-hidden="true"></i>
+                    <h6>Experiência é tudo</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, asperiores culpa delectus deleniti
+                    dignissimos doloribus fugiat fugit inventore ipsa iusto laboriosam maxime officiis quas quia,
+                    recusandae
+                    suscipit voluptate. Commodi, non?</p>
+            </div>
+
+            <div class="col-md">
+                <div class="text-center">
+                    <i class="fa fa-check-circle-o fa-3x" aria-hidden="true"></i>
+                    <h6>Foco total na entrega</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, asperiores culpa delectus deleniti
+                    dignissimos doloribus fugiat fugit inventore ipsa iusto laboriosam maxime officiis quas quia,
+                    recusandae
+                    suscipit voluptate. Commodi, non?</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- O que fazemos -->
+    <div class="container">
+
+        <h5 class="text-center">O que fazemos</h5>
+
+        <div class="row">
+            <div class="col-md">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/base.png" width="400" height="400"
+                     alt="">
+            </div>
+
+            <div class="col-md">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, asperiores culpa delectus deleniti
+                dignissimos doloribus fugiat fugit inventore ipsa iusto laboriosam maxime officiis quas quia, recusandae
+                suscipit voluptate. Commodi, non?
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, asperiores culpa delectus deleniti
+                dignissimos doloribus fugiat fugit inventore ipsa iusto laboriosam maxime officiis quas quia, recusandae
+                suscipit voluptate. Commodi, non?
+            </div>
+
+            <div class="col-md">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/base.png" width="400" height="400"
+                     alt="">
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/base.png" width="400" height="400"
+                     alt="">
+            </div>
+
+            <div class="col-md">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, asperiores culpa delectus deleniti
+                dignissimos doloribus fugiat fugit inventore ipsa iusto laboriosam maxime officiis quas quia, recusandae
+                suscipit voluptate. Commodi, non?
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
 <?php get_footer(); ?>
