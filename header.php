@@ -44,9 +44,8 @@
     <div class="container">
         <div class="row apresentacao">
             <div class="col-md texto">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, atque debitis dolores et eveniet excepturi
-                fuga hic id impedit laborum laudantium molestiae nam necessitatibus officiis, perspiciatis possimus
-                provident sapiente voluptates!
+                Somos a Gotime, uma agência digital focada na criação de experiências digitais. Usamos todo o nosso conhecimento para 
+                ajudar nossos clientes a construírem suas marcas através da internet.
             </div>
             <div class="col-md imagem">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" width="50" height="50"
