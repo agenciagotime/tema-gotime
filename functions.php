@@ -3,7 +3,6 @@
  * Arquivo de funções do tema
  * @author Kelvin Santiago <kelvinsleonardo@gmail.com>
  */
-/*register_nav_menu('menu-header', 'Menu do cabeçalho');*/
 
 
 /**************************************
@@ -20,8 +19,8 @@ register_nav_menus( array('menu-header' => __( 'Menu Cabeçalho', 'gotime-theme'
  **************************************/
 function theme_styles() {
     wp_enqueue_style( 'awesome-css', get_template_directory_uri().'/assets/css/font-awesome/font-awesome.min.css' );
-    wp_enqueue_style( 'bootstrap-css', get_template_directory_uri().'/assets/css/bootstrap.min.css' );
-    wp_enqueue_style( 'style', get_stylesheet_uri().'/assets/css/style.css' );
+    wp_enqueue_style( 'bootstrap-css', get_template_directory_uri().'/assets/css/bootstrap/bootstrap.min.css' );
+    wp_enqueue_style( 'style-css', get_stylesheet_uri());
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_styles');
