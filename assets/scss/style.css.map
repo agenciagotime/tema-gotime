@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA;;;;;;EAME;AACF;;wCAEwC;ACTxC;;;;;GAKG;ACLK,4FAAoF;AFa5F;;wCAEwC;AACxC,IAAK;EACH,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;;AAGX,IAAI;EACF,WAAW,EAAE,uCAAuC;;AAGtD,OAAQ;EACN;;;;;;;;;;;;4BAY0B;EAC1B,gBAAgB,EAAE,UAAU;EAC5B,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,KAAK;;AAGvB;;wCAEwC;AAKlC,uCAAS;EACP,KAAK,EAAE,KAAK;;AAOpB,CAAC;EACC,KAAK,EAAE,GAAG;;AAIZ;;wCAEwC",
+"sources": ["style.scss","_variaveis.scss","_tipografia.scss"],
+"names": [],
+"file": "style.css"
+}
